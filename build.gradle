@@ -31,6 +31,7 @@ repositories {
 
 
 dependencies {
+    // web
     compile('org.springframework.boot:spring-boot-starter-web')
     // HttpClient
     compile('org.apache.httpcomponents:httpclient:4.5.3')
@@ -38,5 +39,8 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-redis')
     // Quartz
     compile('org.springframework.boot:spring-boot-starter-quartz')
+    // 添加 Spring Boot Thymeleaf Starter 的依赖
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+    // 测试
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
